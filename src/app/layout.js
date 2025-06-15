@@ -1,9 +1,20 @@
+import { JetBrains_Mono } from "next/font/google";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+import "@fortawesome/fontawesome-svg-core/styles.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+config.autoAddCss = false;
+
+// components
+import Header from "@/components/Header";
+import PageTransition from "@/components/PageTransition";
+import StairTransition from "@/components/StairTransition";
+
+const jetbrainsMono = JetBrains_Mono({
+  variable: "--font-jetbrainsMono",
   subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800"]
 });
 
 const geistMono = Geist_Mono({
@@ -20,9 +31,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${jetbrainsMono.className} antialiased`}
       >
-        {children}
+        <Header />
+        <StairTransition />
+        <PageTransition>
+          {children}
+        </PageTransition>
       </body>
     </html>
   );
