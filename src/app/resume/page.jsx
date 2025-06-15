@@ -1,15 +1,15 @@
 "use client";
 
+import { useRouter, useSearchParams } from "next/navigation";
+import { Suspense, useEffect, useState } from "react";
 import AboutMe from "@/components/AboutMe";
 import Education from "@/components/Education";
 import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { useRouter, useSearchParams } from "next/navigation";
-import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
-const page = () => {
+const ResumeContent = () => {
   const router = useRouter();
   const searchParams = useSearchParams();
   const tabParam = searchParams.get("tab");
@@ -92,4 +92,10 @@ const page = () => {
   );
 };
 
-export default page;
+export default function Page() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <ResumeContent />
+    </Suspense>
+  )
+}
