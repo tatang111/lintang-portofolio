@@ -6,7 +6,7 @@ const DescHome = () => {
         <p className="w-20 leading-5 ">Years of experience</p>
       </div>
       <div className="flex items-center w-1/4 gap-2 cursor-default">
-        <h3 className="text-4xl font-[800]">3</h3>
+        <h3 className="text-4xl font-[800]">5</h3>
         <p className="w-20 leading-5 ">Projects completed</p>
       </div>
       <div className="flex items-center w-1/4 gap-2 cursor-default">
