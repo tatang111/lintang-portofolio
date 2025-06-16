@@ -10,6 +10,7 @@ config.autoAddCss = false;
 import Header from "@/components/Header";
 import PageTransition from "@/components/PageTransition";
 import StairTransition from "@/components/StairTransition";
+import { Toaster } from "sonner";
 
 const jetbrainsMono = JetBrains_Mono({
   variable: "--font-jetbrainsMono",
@@ -35,6 +36,27 @@ export default function RootLayout({ children }) {
       >
         <Header />
         <StairTransition />
+        <Toaster
+          position="top-center"
+          richColors
+          closeButton={true}
+          toastOptions={{
+            success: {
+              duration: 4000,
+              style: {
+                background: "#22c55e", // green background
+                color: "#fff",
+              },
+            },
+            error: {
+              duration: 6000,
+              style: {
+                background: "#ef4444", // red background
+                color: "#fff",
+              },
+            },
+          }}
+        />
         <PageTransition>
           {children}
         </PageTransition>

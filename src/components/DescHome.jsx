@@ -1,3 +1,5 @@
+import CountUp from "react-countup";
+
 const DescHome = () => {
   return (
     <div className="flex md:px-10 md:flex-row flex-col items-center w-full mt-4 md:mt-14 md:ml-8 gap-7 mb-8 -ml-2 md:gap-15 text-white">
@@ -6,15 +8,15 @@ const DescHome = () => {
         <p className="w-20 leading-5 ">Years of experience</p>
       </div>
       <div className="flex items-center w-1/4 gap-2 cursor-default">
-        <h3 className="text-4xl font-[800]">5</h3>
+        <h3 className="text-4xl font-[800]"><CountUp end={5} duration={5} delay={2} /></h3>
         <p className="w-20 leading-5 ">Projects completed</p>
       </div>
       <div className="flex items-center w-1/4 gap-2 cursor-default">
-        <h3 className="text-4xl font-[800]">8</h3>
+        <h3 className="text-4xl font-[800]"><CountUp end={8} duration={5} delay={2} /></h3>
         <p className="w-20 leading-5 ">Technologies mastered</p>
       </div>
       <div className="flex items-center w-1/4 gap-2 cursor-default">
-        <h3 className="text-4xl font-[800]">150</h3>
+        <h3 className="text-4xl font-[800]"><CountUp end={150} duration={5} delay={2} /></h3>
         <p className="w-20 leading-5 ">Code commits</p>
       </div>
     </div>

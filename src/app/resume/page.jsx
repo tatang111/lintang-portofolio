@@ -36,9 +36,9 @@ const ResumeContent = () => {
           className="w-full"
         >
           <div className="flex gap-7 w-full md:mt-0 mt-3 flex-col md:flex-row">
-            <section className="md:w-4/11 w-full text-center md:text-left flex flex-col gap-7">
+            <section className="md:w-4/11 w-full text-center md:text-left flex border flex-col gap-7">
               <h1 className="text-4xl font-[500]">Why hire me?</h1>
-              <p className="text-gray-400 md:w-full w-80 md:leading-7 md:text-start text-center md:ml-0 ml-10">
+              <p className="text-gray-400 md:w-full sm:w-80 md:leading-7 md:text-start text-center md:ml-0 sm:ml-10">
                 My expertise helps bring your project to life with creativity
                 and a strong technical foundation.
               </p>

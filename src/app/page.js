@@ -7,6 +7,9 @@ import { motion } from "framer-motion";
 import Photo from "@/components/Photo";
 
 export default function Home() {
+
+  
+
   return (
     <main className="container mx-auto mt-3">
       <motion.div
