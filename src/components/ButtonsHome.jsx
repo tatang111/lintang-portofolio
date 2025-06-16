@@ -5,7 +5,7 @@ import { RiWhatsappFill } from "react-icons/ri";
 const ButtonsHome = () => {
   return (
     <div className="flex items-center gap-5 flex-col md:flex-row">
-      <a download href="/CV_Lintang Purnama Surya Aji_FrontEnd.pdf" className="border px-7 text-[#00E187] cursor-pointer transitions duration-300 hover:bg-[#00E187] hover:text-white  border-[#00E187] md:px-5 py-1.5 rounded-full ">
+      <a download href="/LintangPSA-CV-Frontend-2025.pdf" className="border px-7 text-[#00E187] cursor-pointer transitions duration-300 hover:bg-[#00E187] hover:text-white  border-[#00E187] md:px-5 py-1.5 rounded-full ">
         Download CV <Download className="inline" />
       </a>
       <div className="flex items-center gap-5">
