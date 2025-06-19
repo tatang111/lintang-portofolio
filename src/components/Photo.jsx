@@ -27,7 +27,7 @@ const Photo = () => {
             height={500}
             alt="My Foto"
             priority
-            className="md:w-90 w-85 rounded-full h-auto object-cover rounded-md shadow-md"
+            className="md:w-90 w-85 rounded-full h-auto object-cover rounded-md md:shadow-md"
           />
         </motion.div>
 
