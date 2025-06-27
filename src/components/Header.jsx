@@ -16,9 +16,9 @@ const Header = () => {
         </Link>
         <nav className="flex gap-6 hidden md:flex">
           <Navlink href="/">Home</Navlink>
-          <Navlink href="/services">Services</Navlink>
-          <Navlink href="/resume">Resume</Navlink>
           <Navlink href="/project">Project</Navlink>
+          <Navlink href="/resume">Resume</Navlink>
+          <Navlink href="/services">Services</Navlink>
           <Navlink href="/contact">Contact</Navlink>
           <Navlink href="/contact">Hire me</Navlink>
         </nav>
@@ -34,9 +34,9 @@ const Header = () => {
                 </SheetTitle>
               </Link>
               <Navlink href="/">Home</Navlink>
-              <Navlink href="/services">Services</Navlink>
-              <Navlink href="/resume">Resume</Navlink>
               <Navlink href="/project">Project</Navlink>
+              <Navlink href="/resume">Resume</Navlink>
+              <Navlink href="/services">Services</Navlink>
               <Navlink href="/contact">Contact</Navlink>
               <Navlink href="/contact">Hire me</Navlink>
             </SheetContent>
