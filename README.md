@@ -1,6 +1,10 @@
 This portfolio website is designed to highlight my work, technical skills, and expertise.
 It’s a modern, responsive, and interactive platform implemented with Next.js, React, Framer Motion, and Lucide React, along with Chakra UI components.
+## 🚀 Live Demo
 
+🔗 [Lihat di Vercel](https://lintang-portofolio-ttkw.vercel.app/)
+
+---
 🔹 Features
 ✅ Portfolio Section — Displays a collection of my projects with details.
 ✅ About Section — Introduces me and summarizes my skills and experience.
