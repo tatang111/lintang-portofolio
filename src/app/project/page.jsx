@@ -21,27 +21,39 @@ import { motion } from "framer-motion";
 const projects = [
   {
     id: 1,
+    title: "Full-Stack Project",
+    description:
+      "A fullstack social media platform built with Supabase where authenticated users can create posts, join and manage communities, comment, vote, and upload images.",
+    technologies: "React Js, Typescript, Supabase, TailwindCSS, Shadcn UI",
+    githubLink: "https://github.com/tatang111/social-media",
+    liveLink: "https://social-media-tau-silk.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Front-End Project",
-    description: "A cinema platform where administrators can manage films, and users can search for movies, stream them online, and subscribe for premium content.",
-    technologies: "REACT JS 13, TAILWINDCSS, REST API",
+    description:
+      "A cinema platform where administrators can manage films, and users can search for movies, stream them online, and subscribe for premium content.",
+    technologies: "React Js, TailwindCSS, Rest Api, Zod",
     githubLink: "https://github.com/tatang111/Chill-Cinema-Fe3-Showcases",
     liveLink: "https://chill-cinema-fe3-showcases.vercel.app/",
   },
   {
-    id: 2,
-    title: "Back-End Project",
-    description: "A backend application that allows CRUD operations for movies, image upload, user registration, and login — with routes protected by JWT authentication.”",
-    technologies: "Node JS, Express JS, MySql",
-    githubLink: "https://github.com/tatang111/Mission3-Backend-Harisenin",
-    liveLink: "https://github.com/tatang111/Mission3-Backend-Harisenin",
-  },
-  {
     id: 3,
     title: "Front-End Project",
-    description: "An article management website where users can view, search, and sort articles, while administrators can manage articles and categories (CRUD) — all integrated with a REST API.",
+    description:
+      "An article management website where users can view, search, and sort articles, while administrators can manage articles and categories (CRUD) — all integrated with a REST API.",
     technologies: "Next.js 14, ShadCN UI, React, Tailwindcss",
     githubLink: "https://github.com/tatang111/Website-Manajemen-Artikel",
     liveLink: "https://website-manajemen-artikel-sgeu.vercel.app/register",
+  },
+  {
+    id: 4,
+    title: "Back-End Project",
+    description:
+      "A backend application that allows CRUD operations for movies, image upload, user registration, and login — with routes protected by JWT authentication.”",
+    technologies: "Node JS, Express JS, MySql",
+    githubLink: "https://github.com/tatang111/Mission3-Backend-Harisenin",
+    liveLink: "https://github.com/tatang111/Mission3-Backend-Harisenin",
   },
 ];
 
@@ -109,13 +121,13 @@ const page = () => {
             <Carousel className="relative" setApi={setApi}>
               <CarouselContent>
                 {projects.map((project, index) => (
-                  <CarouselItem key={project.id}>
+                  <CarouselItem className="h-80" key={project.id}>
                     <Image
                       src={`/asset/work/image${index + 1}.png`}
                       width={800}
                       height={800}
                       alt={project.title}
-                      className="w-full max-h-96 md:h-auto border object-cover rounded-lg shadow-md"
+                      className="w-full h-full object-cover rounded-lg shadow-md"
                     />
                   </CarouselItem>
                 ))}
