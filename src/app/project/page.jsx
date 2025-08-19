@@ -23,13 +23,22 @@ const projects = [
     id: 1,
     title: "Full-Stack Project",
     description:
+      "A fullstack e-commerce platform built with React, Node.js, and MongoDB where users can browse grocery products, add items to a cart, register/login, place orders, view past orders, and admins can manage products and orders.",
+    technologies: "React Js, TailwindCSS, ShadCN UI, Express, MongoDB",
+    githubLink: "https://github.com/tatang111/greencart",
+    liveLink: "https://greencart-livid-two.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Full-Stack Project",
+    description:
       "A fullstack social media platform built with Supabase where authenticated users can create posts, join and manage communities, comment, vote, and upload images.",
     technologies: "React Js, Typescript, Supabase, TailwindCSS, Shadcn UI",
     githubLink: "https://github.com/tatang111/social-media",
     liveLink: "https://social-media-tau-silk.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Front-End Project",
     description:
       "A cinema platform where administrators can manage films, and users can search for movies, stream them online, and subscribe for premium content.",
@@ -38,7 +47,7 @@ const projects = [
     liveLink: "https://chill-cinema-fe3-showcases.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Front-End Project",
     description:
       "An article management website where users can view, search, and sort articles, while administrators can manage articles and categories (CRUD) — all integrated with a REST API.",
@@ -47,7 +56,7 @@ const projects = [
     liveLink: "https://website-manajemen-artikel-sgeu.vercel.app/register",
   },
   {
-    id: 4,
+    id: 5,
     title: "Back-End Project",
     description:
       "A backend application that allows CRUD operations for movies, image upload, user registration, and login — with routes protected by JWT authentication.”",
