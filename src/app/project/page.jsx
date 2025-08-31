@@ -30,15 +30,6 @@ const projects = [
   },
   {
     id: 2,
-    title: "Full-Stack Project",
-    description:
-      "A fullstack social media platform built with Supabase where authenticated users can create posts, join and manage communities, comment, vote, and upload images.",
-    technologies: "React Js, Typescript, Supabase, TailwindCSS, Shadcn UI",
-    githubLink: "https://github.com/tatang111/social-media",
-    liveLink: "https://social-media-tau-silk.vercel.app/",
-  },
-  {
-    id: 3,
     title: "Front-End Project",
     description:
       "A cinema platform where administrators can manage films, and users can search for movies, stream them online, and subscribe for premium content.",
@@ -47,7 +38,25 @@ const projects = [
     liveLink: "https://chill-cinema-fe3-showcases.vercel.app/",
   },
   {
+    id: 3,
+    title: "Full-Stack Project",
+    description:
+      "A fullstack social media platform built with Supabase where authenticated users can create posts, join and manage communities, comment, vote, and upload images.",
+    technologies: "React Js, Typescript, Supabase, TailwindCSS, Shadcn UI",
+    githubLink: "https://github.com/tatang111/social-media",
+    liveLink: "https://social-media-tau-silk.vercel.app/",
+  },
+  {
     id: 4,
+    title: "Full-Stack Project",
+    description:
+      "A fullstack real-time chat application built with React, Node.js, and MongoDB where users can register/login, start one-on-one conversations, send and receive messages in real time, view past messages, and manage their accounts with secure JWT authentication.",
+    technologies: "React Js, TypeScript, TailwindCSS, Node JS, Express",
+    githubLink: "https://github.com/tatang111/chat-app",
+    liveLink: "https://chat-app-six-virid-24.vercel.app/",
+  },
+  {
+    id: 5,
     title: "Front-End Project",
     description:
       "An article management website where users can view, search, and sort articles, while administrators can manage articles and categories (CRUD) — all integrated with a REST API.",
@@ -56,7 +65,7 @@ const projects = [
     liveLink: "https://website-manajemen-artikel-sgeu.vercel.app/register",
   },
   {
-    id: 5,
+    id: 6,
     title: "Back-End Project",
     description:
       "A backend application that allows CRUD operations for movies, image upload, user registration, and login — with routes protected by JWT authentication.”",
