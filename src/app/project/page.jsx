@@ -62,7 +62,7 @@ const projects = [
       "An article management website where users can view, search, and sort articles, while administrators can manage articles and categories (CRUD) — all integrated with a REST API.",
     technologies: "Next.js 14, ShadCN UI, React, Tailwindcss",
     githubLink: "https://github.com/tatang111/Website-Manajemen-Artikel",
-    liveLink: "https://website-manajemen-artikel-sgeu.vercel.app/register",
+    liveLink: "https://website-manajemen-artikel.vercel.app/register",
   },
   {
     id: 6,
